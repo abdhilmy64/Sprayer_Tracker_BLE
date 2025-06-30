@@ -14,7 +14,7 @@
           <mxGeometry x="20" y="40" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="405" width="445.2631578947369" height="250" as="geometry" />
+          <mxGeometry x="446.6" width="445.2631578947369" height="250" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-6" value="" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
           <mxGeometry width="445.26315789473693" height="250" as="geometry" />
@@ -24,6 +24,18 @@
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="l50BHUluUDmjmSFON2cl-2" target="l50BHUluUDmjmSFON2cl-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="l50BHUluUDmjmSFON2cl-6" target="l50BHUluUDmjmSFON2cl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="380" y="310" width="578.47" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-14" value="" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-18">
+          <mxGeometry width="578.47" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-15" value="pekerja melakukan misi spray&lt;div&gt;&lt;div&gt;harus memulai spraying dengan koordinat&amp;nbsp;&lt;/div&gt;&lt;div&gt;yang sudah diberikan dan melakukan spray dengan&lt;/div&gt;&lt;/div&gt;&lt;div&gt;dosis yang sudah diberikan juga.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;akan ada indikator skor disetiap misi spray per-titik (perdosis) nya&lt;/div&gt;&lt;div&gt;menggunakan buzzer, semakin cepat mendekati dosis&lt;/div&gt;&lt;div&gt;maka buzzer akan berbunyi lebih cepat&lt;/div&gt;&lt;div&gt;dan ketika sudah lebih dari dosis, maka buzer akan&lt;/div&gt;&lt;div&gt;hidup terus selama 2 detik&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;disetiap misi akan ada logging filenya, kemudian akan disimpan&lt;/div&gt;&lt;div&gt;ke device (perlu diperhitungkan juga besar datanya&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-18">
+          <mxGeometry x="44.23436614170123" y="44.9966060606061" width="490" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
