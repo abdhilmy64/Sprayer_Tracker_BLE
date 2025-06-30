@@ -4,8 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IOj9NZB0XZkUf_U5QiZv-1" value="use casenya adalah&lt;div&gt;pekerja dengan membawa&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;knapsack sprayer elektrik maupun manual&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;harus melakukan tugas&lt;/span&gt;&lt;/div&gt;&lt;div&gt;spraying dengan presisi sesuai&lt;/div&gt;&lt;div&gt;dengan yang diinginkan SPV&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry width="320" height="130" as="geometry" />
+        <mxCell id="l50BHUluUDmjmSFON2cl-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="l50BHUluUDmjmSFON2cl-3">
+          <mxGeometry width="360" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="IOj9NZB0XZkUf_U5QiZv-1" value="use casenya adalah&lt;div&gt;pekerja dengan membawa&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;knapsack sprayer elektrik maupun manual&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;harus melakukan tugas&lt;/span&gt;&lt;/div&gt;&lt;div&gt;spraying dengan presisi sesuai&lt;/div&gt;&lt;div&gt;dengan yang diinginkan SPV&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="l50BHUluUDmjmSFON2cl-3" vertex="1">
+          <mxGeometry x="20" y="40" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" width="445.2631578947369" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-6" value="" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
+          <mxGeometry width="445.26315789473693" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-7" value="supervisor memberikan tugas dengan&lt;div&gt;ke &quot;device&quot;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;knapsack sprayer berupa&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dosis, gps lewat handphone dengan melakukan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;koneksi BLE dengan device sprayer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SPV juga bisa melakukan kalibrasi lewat handphone&lt;/div&gt;&lt;div&gt;jika&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sewaktu waktu device perlu di kalibrasi&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
+          <mxGeometry x="22.633157894736826" y="50.00428571428574" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="l50BHUluUDmjmSFON2cl-2" target="l50BHUluUDmjmSFON2cl-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
