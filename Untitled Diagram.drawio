@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="iE8O9hOp8uzU677cVGmg">
-    <mxGraphModel dx="1657" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,16 @@
           <mxGeometry x="20" y="40" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-9" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="446.6" width="445.2631578947369" height="250" as="geometry" />
+          <mxGeometry x="446.6" y="10" width="445.2631578947369" height="250" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-6" value="" style="ellipse;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
           <mxGeometry width="445.26315789473693" height="250" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-7" value="supervisor memberikan tugas dengan&lt;div&gt;ke &quot;device&quot;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;knapsack sprayer berupa&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dosis, gps lewat handphone dengan melakukan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;koneksi BLE dengan device sprayer&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SPV juga bisa melakukan kalibrasi lewat handphone&lt;/div&gt;&lt;div&gt;jika&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sewaktu waktu device perlu di kalibrasi&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
           <mxGeometry x="22.633157894736826" y="50.00428571428574" width="400" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-20" value="SPV" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-9">
+          <mxGeometry x="22.399999999999977" y="75" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="l50BHUluUDmjmSFON2cl-2" target="l50BHUluUDmjmSFON2cl-6">
           <mxGeometry relative="1" as="geometry" />
@@ -36,6 +39,9 @@
         </mxCell>
         <mxCell id="l50BHUluUDmjmSFON2cl-15" value="pekerja melakukan misi spray&lt;div&gt;&lt;div&gt;harus memulai spraying dengan koordinat&amp;nbsp;&lt;/div&gt;&lt;div&gt;yang sudah diberikan dan melakukan spray dengan&lt;/div&gt;&lt;/div&gt;&lt;div&gt;dosis yang sudah diberikan juga.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;akan ada indikator skor disetiap misi spray per-titik (perdosis) nya&lt;/div&gt;&lt;div&gt;menggunakan buzzer, semakin cepat mendekati dosis&lt;/div&gt;&lt;div&gt;maka buzzer akan berbunyi lebih cepat&lt;/div&gt;&lt;div&gt;dan ketika sudah lebih dari dosis, maka buzer akan&lt;/div&gt;&lt;div&gt;hidup terus selama 2 detik&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;disetiap misi akan ada logging filenya, kemudian akan disimpan&lt;/div&gt;&lt;div&gt;ke device (perlu diperhitungkan juga besar datanya&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;container=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-18">
           <mxGeometry x="44.23436614170123" y="44.9966060606061" width="490" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="l50BHUluUDmjmSFON2cl-19" value="Worker" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="l50BHUluUDmjmSFON2cl-18">
+          <mxGeometry x="15" y="140" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
