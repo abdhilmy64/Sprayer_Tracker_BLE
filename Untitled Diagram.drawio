@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IOj9NZB0XZkUf_U5QiZv-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="119" y="91" width="50" height="30" as="geometry" />
+        <mxCell id="IOj9NZB0XZkUf_U5QiZv-1" value="use casenya adalah&lt;div&gt;pekerja harus melaku&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
